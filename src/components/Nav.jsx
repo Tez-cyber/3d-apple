@@ -1,4 +1,7 @@
 import logo from '../assets/images/logo.svg'
+import search from '../assets/images/search.svg'
+import store from '../assets/images/store.svg'
+
 const Nav = () => {
   return (
     <nav className='nav-wrapper'>
@@ -35,10 +38,10 @@ const Nav = () => {
             <a href="" className="link-styled">Support</a>
           </li>
           <li>
-            <img src={} alt="" />
+            <img src={search} alt="" />
           </li>
           <li>
-            <a href="" className="link-styled">Accessories</a>
+            <img src={store} alt="" />
           </li>
         </ul>
       </div>
