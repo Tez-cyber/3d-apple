@@ -1,5 +1,30 @@
 import { useRef } from 'react'
+import {
+    ViewerApp,
+    AssetManagerPlugin,
+    GBufferPlugin,
+    timeout,
+    ProgressivePlugin,
+    TonemapPlugin,
+    SSRPlugin,
+    SSAOPlugin,
+    DiamondPlugin,
+    FrameFadePlugin,
+    GLTFAnimationPlugin,
+    GroundPlugin,
+    BloomPlugin,
+    TemporalAAPlugin,
+    AnisotropyPlugin,
+    GammaCorrectionPlugin,
 
+    addBasePlugins,
+    ITexture, TweakpaneUiPlugin, AssetManagerBasicPopupPlugin, CanvasSnipperPlugin,
+
+    IViewerPlugin, FileTransferPlugin,
+
+    // Color, // Import THREE.js internals
+    // Texture, // Import THREE.js internals
+} from "webgi";
 
 const WebgiViewer = () => {
     const canvasRef = useRef(null);
